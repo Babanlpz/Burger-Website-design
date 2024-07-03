@@ -76,7 +76,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2500,
   delay: 300,
-  reset: true, // Animations repeat
+  reset: false, // Animations repeat
 });
 
 sr.reveal(`.home__data, .footer`);
